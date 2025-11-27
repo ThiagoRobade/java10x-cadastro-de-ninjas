@@ -18,6 +18,7 @@ public class NinjaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     String nome;
 
     @Column(unique = true)
